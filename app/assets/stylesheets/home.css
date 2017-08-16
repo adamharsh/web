@@ -1,0 +1,69 @@
+div.homemain{
+	width: 100%;
+	height: 100%;
+	background:linear-gradient(rgb(247,247,247),rgb(200,200,200));
+
+}
+div.homemain div.sidenav{
+		width:10%;
+		height:100vh;
+		position:fixed;
+		display: flex;
+		flex-direction: column;
+		left:0px;
+		top:0px;
+		background-color:black;
+		color: white;
+		padding-left: 1%;
+		padding-top: 2%;
+}
+div.homemain div.sidenav a.selected{
+	color: white;
+	margin-bottom: 2%;
+}
+div.homemain div.sidenav a{
+	color: rgb(89,102,102);
+	text-decoration: none;
+	margin-bottom: 2%;
+}
+div.homemain div.sidenav a.register{
+	margin-top: 4%;
+	padding: 2% 4%;
+	width: 80%;
+	color: white;
+	border:2px solid white;
+
+}
+div.homemain div.sidenav a.register:hover{
+	
+	background-color: white;
+	border:2px solid white;
+	color:black;
+};
+div.homemain div.sidenav a.login{
+	padding: 4% 4%;
+	width: 80%;
+}
+div.homemain div.sidenav a.login:hover{
+	padding: 2%;
+	width: 80%;
+	background-color: white;
+	border:2px solid white;
+	color:black;
+}
+div.homemain div.sidenav p{
+	color: rgb(89,102,102);
+	font-size:14px;
+	margin-top: 8%;
+	margin-bottom: 4%;
+}
+div.homemain div.homecontent{
+	padding-left: 12%;
+	padding-right: 2%;
+
+}
+
+img{
+	background-size: cover;
+	width: 100%;
+}
